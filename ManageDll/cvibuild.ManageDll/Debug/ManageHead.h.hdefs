@@ -1,0 +1,16 @@
+[DiscardUIObjectsForDLLM]
+Class="Function"
+Prototype="void DiscardUIObjectsForDLLM();"
+
+[InitUI]
+Class="Function"
+Prototype="int InitUI(int nParent, int hParent, int msg);"
+
+[InitUiTab]
+Class="Function"
+Prototype="int InitUiTab(int nParent);"
+
+[GetDBData]
+Class="Function"
+Prototype="int GetDBData(void **pOutData);"
+

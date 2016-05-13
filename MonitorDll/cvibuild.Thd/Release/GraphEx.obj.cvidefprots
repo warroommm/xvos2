@@ -1,0 +1,20 @@
+[RestoreGraph]
+Class="Function"
+Prototype="void RestoreGraph(int panel, int control, double xMin, double yMin, double xMax, double yMax);"
+
+[UpdateXY]
+Class="Function"
+Prototype="int UpdateXY(int panel, int control, int *inx, int *iny);"
+
+[ctrl_cursor]
+Class="Function"
+Prototype="int ctrl_cursor(int panel, int control, int posX, int posY, int type);"
+
+[GraphCB_ex]
+Class="Function"
+Prototype="int GraphCB_ex(int panel, int control, int posX, int posY, int type);"
+
+[GraphClickFlag]
+Class="Function"
+Prototype="void GraphClickFlag(int panel, int control, int newValue);"
+

@@ -1,0 +1,9 @@
+-inrc e:\work\DPSensorClient2\MonitorDll\cvibuild.Thd\Debug\resources.in.rc
+-outrc e:\work\DPSensorClient2\MonitorDll\cvibuild.Thd\Debug\resources.out.rc
+-inhdef e:\work\DPSensorClient2\MonitorDll\cvibuild.Thd\Debug\TLib.h.hdefs
+-outdef e:\work\DPSensorClient2\MonitorDll\cvibuild.Thd\Debug\TfftD.dll.defs
+-indefprot e:\work\DPSensorClient2\MonitorDll\cvibuild.Thd\Debug\GraphEx.obj.cvidefprots
+-indefprot e:\work\DPSensorClient2\MonitorDll\cvibuild.Thd\Debug\NetComm.obj.cvidefprots
+-indefprot e:\work\DPSensorClient2\MonitorDll\cvibuild.Thd\Debug\Thd.obj.cvidefprots
+-indefprot e:\work\DPSensorClient2\MonitorDll\cvibuild.Thd\Debug\menuutil.obj.cvidefprots
+-dllName TfftD.dll

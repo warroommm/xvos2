@@ -1,0 +1,6 @@
+LIBRARY TManage
+
+EXPORTS
+InitUiTab
+InitUI
+DiscardUIObjectsForDLLM

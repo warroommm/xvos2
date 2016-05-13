@@ -1,0 +1,4 @@
+[ListboxCB]
+Class="Function"
+Prototype="int ListboxCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

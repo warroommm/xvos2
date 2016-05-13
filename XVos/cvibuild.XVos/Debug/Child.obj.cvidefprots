@@ -1,0 +1,20 @@
+[InitSubpanel]
+Class="Function"
+Prototype="void InitSubpanel();"
+
+[UninitSubpanel]
+Class="Function"
+Prototype="void UninitSubpanel();"
+
+[PictureCB]
+Class="Function"
+Prototype="int PictureCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[BackLevelCB]
+Class="Function"
+Prototype="int BackLevelCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CanvasCB]
+Class="Function"
+Prototype="int CanvasCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

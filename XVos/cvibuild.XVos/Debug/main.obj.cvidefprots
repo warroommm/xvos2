@@ -1,0 +1,16 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[PanelCB]
+Class="Function"
+Prototype="int PanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SubPanelCB]
+Class="Function"
+Prototype="int SubPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnMain]
+Class="Function"
+Prototype="int OnMain(int panel, int msg, unsigned int *wParam, unsigned int *lParam, void *callbackData);"
+

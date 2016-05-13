@@ -1,0 +1,14 @@
+-inrc e:\work\DPSensorClient2\ManageDll\cvibuild.ManageDll\Release\resources.in.rc
+-outrc e:\work\DPSensorClient2\ManageDll\cvibuild.ManageDll\Release\resources.out.rc
+-inhdef e:\work\DPSensorClient2\ManageDll\cvibuild.ManageDll\Release\ManageHead.h.hdefs
+-outdef e:\work\DPSensorClient2\ManageDll\cvibuild.ManageDll\Release\TManage.dll.defs
+-indefprot e:\work\DPSensorClient2\ManageDll\cvibuild.ManageDll\Release\cJSON.obj.cvidefprots
+-indefprot e:\work\DPSensorClient2\ManageDll\cvibuild.ManageDll\Release\DBbase.obj.cvidefprots
+-indefprot e:\work\DPSensorClient2\ManageDll\cvibuild.ManageDll\Release\JsonImpl.obj.cvidefprots
+-indefprot e:\work\DPSensorClient2\ManageDll\cvibuild.ManageDll\Release\Listbox.obj.cvidefprots
+-indefprot e:\work\DPSensorClient2\ManageDll\cvibuild.ManageDll\Release\ManageDll.obj.cvidefprots
+-indefprot e:\work\DPSensorClient2\ManageDll\cvibuild.ManageDll\Release\ManageTab.obj.cvidefprots
+-indefprot e:\work\DPSensorClient2\ManageDll\cvibuild.ManageDll\Release\ManageTabTree.obj.cvidefprots
+-indefprot e:\work\DPSensorClient2\ManageDll\cvibuild.ManageDll\Release\TreeMenu.obj.cvidefprots
+-indefprot e:\work\DPSensorClient2\ManageDll\cvibuild.ManageDll\Release\menuutil.obj.cvidefprots
+-dllName TManage.dll

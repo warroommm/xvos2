@@ -1,0 +1,32 @@
+[DBbase]
+Class="Function"
+Prototype="struct sqlite3 *DBbase();"
+
+[CreateDB]
+Class="Function"
+Prototype="void CreateDB();"
+
+[InsertDB]
+Class="Function"
+Prototype="void InsertDB(char *named, char *attributed, char *parentsvalue, int picnum, int irecorded);"
+
+[SelectDBTest]
+Class="Function"
+Prototype="void SelectDBTest();"
+
+[SelectDB]
+Class="Function"
+Prototype="int SelectDB();"
+
+[UpdateDbTable]
+Class="Function"
+Prototype="void UpdateDbTable(char *named, char *attributed);"
+
+[DeleteDB]
+Class="Function"
+Prototype="void DeleteDB(char *attributed);"
+
+[CloseDB]
+Class="Function"
+Prototype="void CloseDB();"
+

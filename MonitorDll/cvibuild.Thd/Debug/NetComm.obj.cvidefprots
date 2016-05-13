@@ -1,0 +1,20 @@
+[InitNetcomm]
+Class="Function"
+Prototype="int InitNetcomm(int panel);"
+
+[UninitNetcomm]
+Class="Function"
+Prototype="int UninitNetcomm();"
+
+[Stop]
+Class="Function"
+Prototype="int Stop(int Index);"
+
+[Startup]
+Class="Function"
+Prototype="int Startup();"
+
+[ThdFuncDo]
+Class="Function"
+Prototype="int ThdFuncDo();"
+

@@ -1,0 +1,20 @@
+[InitData]
+Class="Function"
+Prototype="int InitData(int dele);"
+
+[GetBtnName]
+Class="Function"
+Prototype="int GetBtnName(const char *pId, char *pName);"
+
+[GetBtnPID]
+Class="Function"
+Prototype="int GetBtnPID(const char *pId, char *pPID);"
+
+[CountofBtnData]
+Class="Function"
+Prototype="int CountofBtnData(const char *pParentId);"
+
+[CreateBtnData]
+Class="Function"
+Prototype="int CreateBtnData(int panel, const char *pParentId, int *gBtn);"
+

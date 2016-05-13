@@ -1,0 +1,20 @@
+[RuntimePanelCB]
+Class="Function"
+Prototype="int RuntimePanelCB(int panelHandle, int event, void *callbackData, int eventData1, int eventData2);"
+
+[LoadUIR]
+Class="Function"
+Prototype="int LoadUIR(char *panelPath);"
+
+[EnumerateCtrls]
+Class="Function"
+Prototype="int EnumerateCtrls(struct s_PANEL *panelStruct);"
+
+[SetPanelParenthood]
+Class="Function"
+Prototype="void SetPanelParenthood(int panelHandle, int isChildPanel);"
+
+[TreeCB]
+Class="Function"
+Prototype="int TreeCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

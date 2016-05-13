@@ -1,0 +1,8 @@
+[FindCtrlCBName]
+Class="Function"
+Prototype="char *FindCtrlCBName(struct s_CTRL *ctrlStruct, int ctrlID, int numCtrls);"
+
+[RuntimeCtrlCB]
+Class="Function"
+Prototype="int RuntimeCtrlCB(int panelHandle, int control, int event, void *callbackdata, int eventData1, int eventData2);"
+

@@ -1,0 +1,71 @@
+CCFLAGS = -g ;
+TargetFileVersion = "1.0.0.0" ;
+TargetProdVersion = "1.0.0.0" ;
+HDRS = 	"e:\\program files (x86)\\ni\\cvi2013\\include"
+	"E:\\Program Files (x86)\\Ni\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2013\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"e:\\program files (x86)\\ni\\cvi2013\\include\\ansi"
+	"e:\\program files (x86)\\ni\\cvi2013\\include\\clang\\2.9"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"e:\\program files (x86)\\ni\\cvi2013\\sdk\\include"
+	"e:\\work\\DPSensorClient2\\ManageDll"
+	"d:\\Program Files (x86)\\VS 11.0(2012)\\VC\\include"
+	"e:\\program files (x86)\\ni\\cvi2013\\toolslib\\activex\\word"
+	"e:\\program files (x86)\\ni\\cvi2013\\toolslib\\activex\\excel"
+	"e:\\program files (x86)\\ni\\cvi2013\\toolslib\\custctrl"
+	"e:\\program files (x86)\\ni\\cvi2013\\toolslib\\custctrl\\custsupp"
+	"e:\\program files (x86)\\ni\\cvi2013\\toolslib\\cvirtsup"
+	"e:\\program files (x86)\\ni\\cvi2013\\toolslib\\datasock"
+	"e:\\program files (x86)\\ni\\cvi2013\\toolslib\\daqUtil"
+	"e:\\program files (x86)\\ni\\cvi2013\\toolslib\\printing"
+	"e:\\program files (x86)\\ni\\cvi2013\\toolslib\\toolbox"
+	"e:\\program files (x86)\\ni\\cvi2013\\toolslib\\reportgen"
+	"e:\\program files (x86)\\ni\\cvi2013\\toolslib\\localui"
+	"e:\\program files (x86)\\ni\\cvi2013\\instr"
+	"E:\\Program Files (x86)\\Ni\\Shared\\CVI\\toolslib\\custctrl"
+	"E:\\Program Files (x86)\\Ni\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"E:\\Program Files (x86)\\Ni\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2013\\instr"
+	"e:\\Program Files (x86)\\NI\\CVI2013\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2013\\bin"
+	"e:\\Program Files (x86)\\NI\\Shared\\CVI\\Bin"
+	"e:\\work\\DPSensorClient2\\MonitorDll"
+	"e:\\work\\DPSensorClient2\\ManageDll\\sqlitelib"
+	;
+include Jamfile_instr ;
+Object "e:\\work\\DPSensorClient2\\ManageDll\\cvibuild.ManageDll\\Debug\\cJSON.obj" : "e:\\work\\DPSensorClient2\\ManageDll\\cJSON.c" ;
+PrjObjects += "e:\\work\\DPSensorClient2\\ManageDll\\cvibuild.ManageDll\\Debug\\cJSON.obj" ;
+Object "e:\\work\\DPSensorClient2\\ManageDll\\cvibuild.ManageDll\\Debug\\DBbase.obj" : "e:\\work\\DPSensorClient2\\ManageDll\\DBbase.c" ;
+PrjObjects += "e:\\work\\DPSensorClient2\\ManageDll\\cvibuild.ManageDll\\Debug\\DBbase.obj" ;
+Object "e:\\work\\DPSensorClient2\\ManageDll\\cvibuild.ManageDll\\Debug\\JsonImpl.obj" : "e:\\work\\DPSensorClient2\\ManageDll\\JsonImpl.c" ;
+PrjObjects += "e:\\work\\DPSensorClient2\\ManageDll\\cvibuild.ManageDll\\Debug\\JsonImpl.obj" ;
+Object "e:\\work\\DPSensorClient2\\ManageDll\\cvibuild.ManageDll\\Debug\\Listbox.obj" : "e:\\work\\DPSensorClient2\\ManageDll\\Listbox.c" ;
+PrjObjects += "e:\\work\\DPSensorClient2\\ManageDll\\cvibuild.ManageDll\\Debug\\Listbox.obj" ;
+Object "e:\\work\\DPSensorClient2\\ManageDll\\cvibuild.ManageDll\\Debug\\ManageDll.obj" : "e:\\work\\DPSensorClient2\\ManageDll\\ManageDll.c" ;
+PrjObjects += "e:\\work\\DPSensorClient2\\ManageDll\\cvibuild.ManageDll\\Debug\\ManageDll.obj" ;
+Object "e:\\work\\DPSensorClient2\\ManageDll\\cvibuild.ManageDll\\Debug\\ManageTab.obj" : "e:\\work\\DPSensorClient2\\ManageDll\\ManageTab.c" ;
+PrjObjects += "e:\\work\\DPSensorClient2\\ManageDll\\cvibuild.ManageDll\\Debug\\ManageTab.obj" ;
+Object "e:\\work\\DPSensorClient2\\ManageDll\\cvibuild.ManageDll\\Debug\\ManageTabTree.obj" : "e:\\work\\DPSensorClient2\\ManageDll\\ManageTabTree.c" ;
+PrjObjects += "e:\\work\\DPSensorClient2\\ManageDll\\cvibuild.ManageDll\\Debug\\ManageTabTree.obj" ;
+Object "e:\\work\\DPSensorClient2\\ManageDll\\cvibuild.ManageDll\\Debug\\TreeMenu.obj" : "e:\\work\\DPSensorClient2\\ManageDll\\TreeMenu.c" ;
+PrjObjects += "e:\\work\\DPSensorClient2\\ManageDll\\cvibuild.ManageDll\\Debug\\TreeMenu.obj" ;
+Object "e:\\work\\DPSensorClient2\\ManageDll\\cvibuild.ManageDll\\Debug\\menuutil.obj" : "e:\\Program Files (x86)\\NI\\CVI2013\\toolslib\\toolbox\\menuutil.c" ;
+InstrObjects += "e:\\work\\DPSensorClient2\\ManageDll\\cvibuild.ManageDll\\Debug\\menuutil.obj" ;
+Object "ManageHead.h.hdefs" : "e:\\work\\DPSensorClient2\\ManageDll\\ManageHead.h" ;
+PreLinkInputs += resources.in.rc ;
+PreLinkInputs += $(PrjObjects) $(InstrObjects) ;
+PreLinkOutputs += resources.out.rc ;
+PreLinkOutputs += "TManageD.dll.defs" ;
+PreLink $(PreLinkOutputs) : $(PreLinkInputs) ;
+Depends "TManageD.dll" : "TManageD.dll.defs" ;
+Object resources.res : resources.out.rc ;
+Depends resources.res : $(PreLinkOutputs) ;
+Depends resources.res resources.out.rc : $(PrjObjects) $(InstrObjects) ;
+Depends resources.res : "e:\\work\\DPSensorClient2\\ManageDll\\cvibuild.ManageDll\\Debug\\manifest.xml" ;
+MainFromObjects "TManageD.dll" : $(PrjObjects) $(InstrObjects) ;
+Depends "TManageD.dll" : link_options.txt ;
+Depends "TManageD.dll" : resources.res ;
+Depends resources.res :  "e:\\work\\DPSensorClient2\\ManageDll\\ManageDll.uir" ;
+Depends all : "TManageD.dll" ;

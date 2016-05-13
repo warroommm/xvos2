@@ -1,0 +1,32 @@
+[SelectItem]
+Class="Function"
+Prototype="int SelectItem();"
+
+[DefferSysMenuItems]
+Class="Function"
+Prototype="void DefferSysMenuItems(void *callback);"
+
+[InitMenu]
+Class="Function"
+Prototype="int InitMenu(int panel);"
+
+[ShowSysMenuCB]
+Class="Function"
+Prototype="int ShowSysMenuCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[TreeItemAdd]
+Class="Function"
+Prototype="void TreeItemAdd(int panel, int ctrlId, int menuItem, void *callback);"
+
+[TreeItemDele]
+Class="Function"
+Prototype="void TreeItemDele(int panel, int ctrlId, int menuItem, void *callback);"
+
+[TreeItemModify]
+Class="Function"
+Prototype="void TreeItemModify(int panel, int ctrlId, int menuItem, void *callback);"
+
+[TreeCB]
+Class="Function"
+Prototype="int TreeCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

@@ -1,0 +1,819 @@
+[Workspace Header]
+Version = 1300
+Pathname = "/e/work/DPSensorClient2/XVos/XVos.cws"
+CVI Dir = "/e/program files (x86)/ni/cvi2013"
+CVI Shared Dir = "/E/Program Files (x86)/Ni/Shared/CVI"
+CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2013"
+CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
+IVI Standard Root Dir = "/C/Program Files (x86)/IVI Foundation/IVI"
+IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
+VXIplug&play Framework Dir = "/C/Program Files (x86)/IVI Foundation/VISA/winnt"
+VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
+Number of Projects = 3
+Active Project = 1
+Project 0001 = "XVos.prj"
+Project 0001 Folder Instrument Files Collapsed = True
+Project 0001 FolderId 3 Collapsed = True
+Project 0001 Folder Library Files Collapsed = True
+Project 0001 FolderId 4 Collapsed = True
+Project 0002 = "/e/work/DPSensorClient2/MonitorDll/Thd.prj"
+Project 0003 = "/e/work/DPSensorClient2/ManageDll/ManageDll.prj"
+Project 0003 Folder sqlite Collapsed = True
+Project 0003 FolderId 3 Collapsed = True
+Drag Bar Left = 328
+Window Top = 110
+Window Left = 521
+Window Bottom = 494
+Window Right = 1215
+Maximized = True
+Maximized Children = True
+Max32 Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win At Start = True
+Bring Up Err Win For Errors = False
+Save Changes Before Running = "Always"
+Save Changes Before Compiling = "Always"
+Hide Windows = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 4
+Window Confinement Region Enabled = True
+MainColumnWidth = 311
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+
+[Project Header 0001]
+Version = 1300
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 0
+Batch Build Release = False
+Batch Build Debug = False
+
+[Project Header 0002]
+Version = 1300
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+
+[Project Header 0003]
+Version = 1300
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+
+[File 0001]
+Path = "/e/Program Files (x86)/NI/CVI2013/toolslib/toolbox/toolbox.fp"
+File Type = "Function Panel"
+Disk Date = 3455056800
+In Projects = "1,"
+
+[File 0002]
+Path = "/e/program files (x86)/ni/cvi2013/toolslib/toolbox/menuutil.fp"
+File Type = "Function Panel"
+Disk Date = 3455056800
+In Projects = "1,"
+
+[File 0003]
+Path = "/e/work/DPSensorClient2/MonitorDll/abcc.fp"
+File Type = "Function Panel"
+Disk Date = 3528426051
+In Projects = "2,"
+
+[File 0004]
+Path = "/e/program files (x86)/ni/cvi2013/toolslib/custctrl/graphcursors.fp"
+File Type = "Function Panel"
+Disk Date = 3455056800
+In Projects = "2,"
+
+[File 0005]
+Path = "/e/work/DPSensorClient2/XVos/pnl.c"
+File Type = "CSource"
+Disk Date = 3536702684
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Source Window State = "1,281,281,281,16,22,22,0,3,0,0,0,0,0,0,0,260,0,281,16,277,519,1,0,"
+Breakpoint 0001 = "69,0,enabled,"
+Breakpoint 0002 = "249,0,enabled,"
+
+[File 0006]
+Path = "/e/work/DPSensorClient2/XVos/ctrl.c"
+File Type = "CSource"
+Disk Date = 3528861388
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Source Window State = "1,85,85,85,12,20,20,0,0,0,0,0,0,0,0,0,35,0,44,13,375,519,1,0,"
+Breakpoint 0001 = "49,0,enabled,"
+
+[File 0007]
+Path = "/e/work/DPSensorClient2/ManageDll/ManageTabTree.c"
+File Type = "CSource"
+Disk Date = 3537241372
+In Projects = "3,"
+Window Top = 92
+Window Left = 42
+Source Window State = "1,57,57,57,69,82,82,0,0,0,0,0,0,0,0,0,149,0,190,18,375,519,1,0,"
+Breakpoint 0001 = "186,0,enabled,"
+Breakpoint 0002 = "203,0,enabled,"
+
+[File 0008]
+Path = "/e/work/DPSensorClient2/ManageDll/ManageTab.c"
+File Type = "CSource"
+Disk Date = 3536552770
+In Projects = "3,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,13,23,13,0,0,0,0,0,0,0,0,0,0,0,0,6,0,15,15,263,519,1,0,"
+Breakpoint 0001 = "175,0,enabled,"
+Breakpoint 0002 = "198,0,enabled,"
+
+[File 0009]
+Path = "/e/work/DPSensorClient2/XVos/Child.c"
+File Type = "CSource"
+Disk Date = 3537575647
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Window Z-Order = 1
+Source Window State = "1,261,261,261,34,44,34,0,0,167,0,0,0,0,0,42,171,0,191,116,263,519,1,0,"
+Breakpoint 0001 = "214,0,enabled,"
+Breakpoint 0002 = "216,0,enabled,"
+
+[File 0010]
+Path = "/e/work/DPSensorClient2/ManageDll/TreeMenu.c"
+File Type = "CSource"
+Disk Date = 3536704204
+In Projects = "3,"
+Window Top = 62
+Window Left = 26
+Source Window State = "1,117,117,117,47,57,57,0,0,0,0,0,0,0,0,0,234,0,255,4,333,519,1,0,"
+Breakpoint 0001 = "118,0,enabled,"
+Breakpoint 0002 = "129,0,enabled,"
+
+[File 0011]
+Path = "/e/work/DPSensorClient2/MonitorDll/Thd.c"
+File Type = "CSource"
+Disk Date = 3537508878
+In Projects = "2,"
+Window Top = 62
+Window Left = 26
+Source Window State = "1,820,820,820,21,30,30,0,0,80,0,245,0,221,26,25,806,0,826,46,375,519,1,0,"
+Breakpoint 0001 = "325,0,enabled,"
+
+[File 0012]
+Path = "/e/work/DPSensorClient2/XVos/main.c"
+File Type = "CSource"
+Disk Date = 3537504658
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Window Z-Order = 4
+Source Window State = "1,249,249,249,12,19,19,0,3,80,0,0,0,0,0,13,242,0,249,12,207,519,1,0,"
+
+[File 0013]
+Path = "/e/work/DPSensorClient2/MonitorDll/TLib.h"
+File Type = "Include"
+Disk Date = 3537485415
+In Projects = "2,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,17,17,17,4,11,11,0,3,80,0,0,0,0,0,25,0,0,17,4,375,519,1,0,"
+
+[File 0014]
+Path = "/e/work/DPSensorClient2/XVos/XVos.uir"
+File Type = "User Interface Resource"
+Disk Date = 3537573364
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Window Height = 277
+Window Width = 519
+Window Z-Order = 2
+
+[File 0015]
+Path = "/e/work/DPSensorClient2/XVos/ChildData.c"
+File Type = "CSource"
+Disk Date = 3537330951
+In Projects = "1,"
+Window Top = 152
+Window Left = 74
+Source Window State = "1,81,81,81,4,17,17,0,0,0,0,0,0,0,0,0,67,0,18,93,375,519,1,0,"
+
+[File 0016]
+Path = "/e/work/DPSensorClient2/XVos/menu.c"
+File Type = "CSource"
+Disk Date = 3536204441
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,594,595,594,0,0,0,0,0,0,0,0,0,0,0,0,0,0,595,0,291,519,1,0,"
+
+[File 0017]
+Path = "/e/work/DPSensorClient2/XVos/utils.c"
+File Type = "CSource"
+Disk Date = 3536200524
+In Projects = "1,"
+Window Top = 92
+Window Left = 42
+Source Window State = "1,335,335,335,4,19,19,0,0,0,0,295,0,0,0,0,276,0,294,26,277,519,1,23,"
+
+[File 0018]
+Path = "/e/work/DPSensorClient2/XVos/Child.h"
+File Type = "Include"
+Disk Date = 3537312470
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,22,207,519,1,0,"
+
+[File 0019]
+Path = "/e/work/DPSensorClient2/XVos/ChildData.h"
+File Type = "Include"
+Disk Date = 3537329302
+In Projects = "1,"
+Window Top = 182
+Window Left = 90
+Source Window State = "1,30,31,30,0,0,0,0,3,0,0,0,0,0,0,0,11,0,31,0,375,519,1,0,"
+
+[File 0020]
+Path = "/e/work/DPSensorClient2/XVos/ctrl.h"
+File Type = "Include"
+Disk Date = 3528861225
+In Projects = "1,"
+Window Top = 62
+Window Left = 26
+Source Window State = "1,3,3,3,16,29,29,0,0,0,0,0,0,0,0,0,0,0,3,16,277,519,1,0,"
+
+[File 0021]
+Path = "/e/work/DPSensorClient2/XVos/data.h"
+File Type = "Include"
+Disk Date = 3528864814
+In Projects = "1,"
+Window Top = 152
+Window Left = 74
+Source Window State = "1,25,25,25,1,12,12,0,0,0,0,0,0,0,0,0,8,0,25,1,277,519,1,0,"
+
+[File 0022]
+Path = "/e/work/DPSensorClient2/XVos/main.h"
+File Type = "Include"
+Disk Date = 3537495013
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,2,277,519,1,0,"
+
+[File 0023]
+Path = "/e/work/DPSensorClient2/XVos/menu.h"
+File Type = "Include"
+Disk Date = 3531090487
+In Projects = "1,"
+Window Top = 92
+Window Left = 42
+Source Window State = "1,15,15,15,17,31,31,0,3,0,0,0,0,0,0,0,0,0,15,17,277,519,1,0,"
+
+[File 0024]
+Path = "/e/work/DPSensorClient2/XVos/pnl.h"
+File Type = "Include"
+Disk Date = 3528861049
+In Projects = "1,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,41,277,519,1,0,"
+
+[File 0025]
+Path = "/e/work/DPSensorClient2/XVos/utils.h"
+File Type = "Include"
+Disk Date = 3536200056
+In Projects = "1,"
+Window Top = 122
+Window Left = 58
+Source Window State = "1,16,16,16,32,35,32,0,0,0,0,0,0,0,0,0,0,0,14,37,375,519,1,0,"
+
+[File 0026]
+Path = "/e/work/DPSensorClient2/XVos/XVos.h"
+File Type = "Include"
+Disk Date = 3537573364
+In Projects = "1,2,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,88,88,88,17,28,28,0,0,0,0,0,0,0,0,0,74,0,88,17,277,519,1,0,"
+
+[File 0027]
+Path = "/e/work/DPSensorClient2/Bin/TfftD.lib"
+File Type = "Library"
+Disk Date = 3537508880
+In Projects = "1,"
+
+[File 0028]
+Path = "/e/work/DPSensorClient2/Bin/TManageD.lib"
+File Type = "Library"
+Disk Date = 3537504661
+In Projects = "1,"
+
+[File 0029]
+Path = "/e/work/DPSensorClient2/MonitorDll/Thd.uir"
+File Type = "User Interface Resource"
+Disk Date = 3537504167
+In Projects = "2,"
+Window Top = 213
+Window Left = 122
+Window Height = 375
+Window Width = 519
+
+[File 0030]
+Path = "/e/work/DPSensorClient2/MonitorDll/GraphEx.c"
+File Type = "CSource"
+Disk Date = 3536012821
+In Projects = "2,"
+Window Top = 62
+Window Left = 26
+Source Window State = "1,45,45,45,4,22,22,0,0,0,0,2,0,2,0,0,22,0,46,4,375,519,1,0,"
+
+[File 0031]
+Path = "/e/work/DPSensorClient2/MonitorDll/NetComm.c"
+File Type = "CSource"
+Disk Date = 3535511947
+In Projects = "2,"
+Window Top = 92
+Window Left = 42
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,206,0,218,20,263,519,1,0,"
+
+[File 0032]
+Path = "/e/work/DPSensorClient2/MonitorDll/GraphEx.h"
+File Type = "Include"
+Disk Date = 3535692945
+In Projects = "2,"
+Window Top = 92
+Window Left = 42
+Source Window State = "1,23,23,23,12,26,26,0,0,0,0,0,0,0,0,0,4,0,23,41,375,519,1,0,"
+
+[File 0033]
+Path = "/e/work/DPSensorClient2/MonitorDll/NetComm.h"
+File Type = "Include"
+Disk Date = 3533270252
+In Projects = "2,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0034]
+Path = "/e/work/DPSensorClient2/MonitorDll/sg/SgProcess.h"
+File Type = "Include"
+Disk Date = 3467416394
+In Projects = "2,"
+Window Top = 92
+Window Left = 42
+Source Window State = "1,43,43,43,15,25,25,0,3,0,0,0,0,0,0,0,42,0,43,15,305,519,1,0,"
+
+[File 0035]
+Path = "/e/work/DPSensorClient2/MonitorDll/Thd.h"
+File Type = "Include"
+Disk Date = 3537504167
+In Projects = "2,"
+Window Top = 122
+Window Left = 58
+Source Window State = "1,25,25,25,9,24,24,0,0,0,0,0,0,0,0,0,6,0,29,45,375,519,1,0,"
+
+[File 0036]
+Path = "/e/work/DPSensorClient2/MonitorDll/sg/SgProcess.lib"
+File Type = "Library"
+Disk Date = 3467416396
+In Projects = "2,"
+
+[File 0037]
+Path = "/e/work/DPSensorClient2/ManageDll/ManageDll.uir"
+File Type = "User Interface Resource"
+Disk Date = 3537504658
+In Projects = "3,"
+Window Top = 62
+Window Left = 26
+Window Height = 333
+Window Width = 519
+
+[File 0038]
+Path = "/e/work/DPSensorClient2/ManageDll/cJSON.c"
+File Type = "CSource"
+Disk Date = 3506669690
+In Projects = "3,"
+Window Top = 122
+Window Left = 58
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,35,0,333,519,1,0,"
+
+[File 0039]
+Path = "/e/work/DPSensorClient2/ManageDll/DBbase.c"
+File Type = "CSource"
+Disk Date = 3536704204
+In Projects = "3,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,27,27,27,5,13,13,0,3,0,0,0,0,0,0,0,20,0,27,5,221,519,1,0,"
+
+[File 0040]
+Path = "/e/work/DPSensorClient2/ManageDll/JsonImpl.c"
+File Type = "CSource"
+Disk Date = 3532401168
+In Projects = "3,"
+Window Top = 152
+Window Left = 74
+Source Window State = "1,171,172,171,0,0,0,0,0,0,0,0,0,0,0,0,155,0,171,0,375,519,1,0,"
+
+[File 0041]
+Path = "/e/work/DPSensorClient2/ManageDll/Listbox.c"
+File Type = "CSource"
+Disk Date = 3537504658
+In Projects = "3,"
+Window Top = 242
+Window Left = 122
+Source Window State = "1,26,26,26,59,65,65,0,0,0,0,0,0,0,0,0,0,0,27,18,375,519,1,0,"
+
+[File 0042]
+Path = "/e/work/DPSensorClient2/ManageDll/ManageDll.c"
+File Type = "CSource"
+Disk Date = 3537501768
+In Projects = "3,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,27,29,27,0,0,0,0,0,0,0,22,0,0,0,0,6,0,29,0,333,399,1,15,"
+
+[File 0043]
+Path = "/e/work/DPSensorClient2/ManageDll/cJSON.h"
+File Type = "Include"
+Disk Date = 3506669602
+In Projects = "3,"
+Window Top = 92
+Window Left = 42
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,333,519,1,0,"
+
+[File 0044]
+Path = "/e/work/DPSensorClient2/ManageDll/DBbase.h"
+File Type = "Include"
+Disk Date = 3537239252
+In Projects = "3,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,14,14,14,1,8,8,0,3,0,0,0,0,0,0,0,0,0,14,1,375,519,1,0,"
+
+[File 0045]
+Path = "/e/work/DPSensorClient2/ManageDll/JsonImpl.h"
+File Type = "Include"
+Disk Date = 3530504879
+In Projects = "3,"
+Window Top = 182
+Window Left = 90
+Source Window State = "1,20,20,20,5,11,11,0,3,0,0,0,0,0,0,0,0,0,20,5,375,519,1,0,"
+
+[File 0046]
+Path = "/e/work/DPSensorClient2/ManageDll/ManageDll.h"
+File Type = "Include"
+Disk Date = 3537504658
+In Projects = "3,"
+Window Top = 122
+Window Left = 58
+Source Window State = "1,17,17,17,9,19,19,0,0,0,0,0,0,0,0,0,21,0,75,17,333,519,1,0,"
+
+[File 0047]
+Path = "/e/work/DPSensorClient2/ManageDll/ManageHead.h"
+File Type = "Include"
+Disk Date = 3537501581
+In Projects = "3,"
+Window Top = 212
+Window Left = 106
+Source Window State = "1,15,15,15,22,49,49,0,3,0,0,0,0,0,0,0,0,0,15,22,375,519,1,0,"
+
+[File 0048]
+Path = "/e/work/DPSensorClient2/ManageDll/ManageTab.h"
+File Type = "Include"
+Disk Date = 3536530868
+In Projects = "3,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0049]
+Path = "/e/work/DPSensorClient2/ManageDll/ManageTabTree.h"
+File Type = "Include"
+Disk Date = 3536634038
+In Projects = "3,"
+Window Top = 62
+Window Left = 26
+Source Window State = "1,19,19,19,4,12,12,0,0,0,0,0,0,0,0,0,9,0,19,4,375,519,1,0,"
+
+[File 0050]
+Path = "/e/work/DPSensorClient2/ManageDll/TreeMenu.h"
+File Type = "Include"
+Disk Date = 3536704204
+In Projects = "3,"
+Window Top = 92
+Window Left = 42
+Source Window State = "1,19,32,19,0,0,0,0,0,0,0,0,0,0,0,0,14,0,22,11,333,519,1,0,"
+
+[File 0051]
+Path = "/e/work/DPSensorClient2/ManageDll/sqlitelib/sqlite3.h"
+File Type = "Include"
+Disk Date = 3529331044
+In Projects = "3,"
+Window Top = 62
+Window Left = 26
+Source Window State = "1,389,389,389,9,15,15,0,3,0,0,0,0,0,0,0,372,0,389,9,375,519,1,0,"
+
+[File 0052]
+Path = "/e/work/DPSensorClient2/ManageDll/sqlitelib/sqlite3ext.h"
+File Type = "Include"
+Disk Date = 3529331044
+In Projects = "3,"
+Window Top = 32
+Window Left = 10
+Source Window State = "1,291,291,291,39,50,50,0,0,0,0,0,0,0,0,0,254,0,269,80,235,519,1,0,"
+
+[File 0053]
+Path = "/e/work/DPSensorClient2/ManageDll/sqlitelib/sqlitedll.lib"
+File Type = "Library"
+Disk Date = 3533617077
+In Projects = "3,"
+
+[File 0054]
+Path = "/e/Program Files (x86)/NI/CVI2013/include/userint.h"
+File Type = "Include"
+Disk Date = 3455056800
+In Projects = ""
+Window Top = 92
+Window Left = 42
+Window Z-Order = 3
+Source Window State = "1,1707,1707,1707,8,32,32,0,3,80,0,0,0,0,0,25,1621,0,1707,8,375,519,1,0,"
+
+[Default Build Config 0001 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Extended"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Extended"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Extended"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Extended"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Build Dependencies 0001]
+Number of Dependencies = 2
+Dependency 0001 = 2
+Dependency 0002 = 3
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Extended"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0001]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+
+[Default Build Config 0002 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0002 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0002 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0002 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Build Dependencies 0002]
+Number of Dependencies = 0
+
+[Build Options 0002]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0002]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0002]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0002]
+External Process Path = ""
+
+[Command Line Args 0002]
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+
+[Default Build Config 0003 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Extended"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0003 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Extended"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0003 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Extended"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0003 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Extended"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Build Dependencies 0003]
+Number of Dependencies = 0
+
+[Build Options 0003]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Extended"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0003]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0003]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0003]
+External Process Path = ""
+
+[Command Line Args 0003]
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+
+[Watch 1]
+Watch Expression = "pAddress"
+

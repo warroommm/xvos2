@@ -1,0 +1,124 @@
+[SaveMRUList]
+Class="Function"
+Prototype="void SaveMRUList();"
+
+[LoadUIR_safe]
+Class="Function"
+Prototype="int LoadUIR_safe(char *fileName);"
+
+[MRUFileCB]
+Class="Function"
+Prototype="void MRUFileCB(int list, int menuIndex, int event, void *callbackData);"
+
+[InitializeMRU]
+Class="Function"
+Prototype="void InitializeMRU(int panelHandle);"
+
+[FileOpen]
+Class="Function"
+Prototype="void FileOpen(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[AddUIRtoTree]
+Class="Function"
+Prototype="void AddUIRtoTree(char *tempUIRPath);"
+
+[UIRCloseCB]
+Class="Function"
+Prototype="void UIRCloseCB(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[FileExit]
+Class="Function"
+Prototype="void FileExit(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[DeferredMenuCB]
+Class="Function"
+Prototype="void DeferredMenuCB(void *callbackData);"
+
+[CopyCB]
+Class="Function"
+Prototype="void CopyCB(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[SaveCB]
+Class="Function"
+Prototype="void SaveCB(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[PrintCB]
+Class="Function"
+Prototype="void PrintCB(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[PanelAttribCanMaximizeCB]
+Class="Function"
+Prototype="void PanelAttribCanMaximizeCB(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[PanelAttribCanMinimizeCB]
+Class="Function"
+Prototype="void PanelAttribCanMinimizeCB(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[CloseControlCB]
+Class="Function"
+Prototype="void CloseControlCB(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[MovableCB]
+Class="Function"
+Prototype="void MovableCB(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[SizableCB]
+Class="Function"
+Prototype="void SizableCB(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[TitleBarVisibleCB]
+Class="Function"
+Prototype="void TitleBarVisibleCB(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[SystemColorsCB]
+Class="Function"
+Prototype="void SystemColorsCB(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[ScalableCB]
+Class="Function"
+Prototype="void ScalableCB(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[PanelCloseCB]
+Class="Function"
+Prototype="void PanelCloseCB(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[ViewerHelpCB]
+Class="Function"
+Prototype="void ViewerHelpCB(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[AboutViewerCB]
+Class="Function"
+Prototype="void AboutViewerCB(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[AboutCanvasCB]
+Class="Function"
+Prototype="int AboutCanvasCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[TreeAdd]
+Class="Function"
+Prototype="void TreeAdd(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[TreeModify]
+Class="Function"
+Prototype="void TreeModify(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[TreeDele]
+Class="Function"
+Prototype="void TreeDele(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[ShowHideView]
+Class="Function"
+Prototype="void ShowHideView(int nType);"
+
+[ShowViewOn]
+Class="Function"
+Prototype="void ShowViewOn(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[ShowViewGraph]
+Class="Function"
+Prototype="void ShowViewGraph(int menuBar, int menuItem, void *callbackData, int panel);"
+
+[ShowViewPara]
+Class="Function"
+Prototype="void ShowViewPara(int menuBar, int menuItem, void *callbackData, int panel);"
+

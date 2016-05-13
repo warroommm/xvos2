@@ -1,0 +1,12 @@
+[MovePosition]
+Class="Function"
+Prototype="void MovePosition(int panel, int init);"
+
+[ListPanelCB]
+Class="Function"
+Prototype="int ListPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[TabCallback]
+Class="Function"
+Prototype="int TabCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

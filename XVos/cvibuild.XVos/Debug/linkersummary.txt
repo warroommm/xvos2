@@ -1,0 +1,21 @@
+Child.obj
+ChildData.obj
+ctrl.obj
+main.obj
+menu.obj
+pnl.obj
+utils.obj
+cvi.lib
+cvistart.lib
+inifile.obj
+menuutil.obj
+TfftD.lib
+TManageD.lib
+toolbox.obj
+advapi32.lib
+cviauto.lib
+gdi32.lib
+kernel32.lib
+user32.lib
+EXE Symbol Module
+Resource Module

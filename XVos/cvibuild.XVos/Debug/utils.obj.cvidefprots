@@ -1,0 +1,52 @@
+[UIRPathCompare]
+Class="Function"
+Prototype="int UIRPathCompare(void *item1, void *item2);"
+
+[PanelCompare]
+Class="Function"
+Prototype="int PanelCompare(void *item1, void *item2);"
+
+[RemoveUIRFromList]
+Class="Function"
+Prototype="void RemoveUIRFromList(char *UIRPath);"
+
+[RemoveUIRfromListIndex]
+Class="Function"
+Prototype="void RemoveUIRfromListIndex(unsigned int foundIndex);"
+
+[CleanUpLists]
+Class="Function"
+Prototype="void CleanUpLists();"
+
+[GetStyleNameForCtrl]
+Class="Function"
+Prototype="int GetStyleNameForCtrl(int ctrlStyle, char *ctrlName);"
+
+[GetUIRList]
+Class="Function"
+Prototype="struct ListStructTag **GetUIRList();"
+
+[GetMainPanel]
+Class="Function"
+Prototype="int GetMainPanel();"
+
+[GetChildPanel]
+Class="Function"
+Prototype="int GetChildPanel(int nChildID);"
+
+[SetDllPanel]
+Class="Function"
+Prototype="int SetDllPanel(int nNewPanel);"
+
+[GetDllPanel]
+Class="Function"
+Prototype="int GetDllPanel();"
+
+[SetManagerPanel]
+Class="Function"
+Prototype="int SetManagerPanel(int nPanel, int nMngPanellist);"
+
+[GetManagerPanel]
+Class="Function"
+Prototype="int GetManagerPanel(int IsPanellist);"
+

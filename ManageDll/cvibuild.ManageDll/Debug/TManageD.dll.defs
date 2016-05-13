@@ -1,0 +1,7 @@
+LIBRARY TManageD
+
+EXPORTS
+GetDBData
+InitUiTab
+InitUI
+DiscardUIObjectsForDLLM

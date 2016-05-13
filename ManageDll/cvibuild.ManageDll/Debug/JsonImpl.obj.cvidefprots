@@ -1,0 +1,16 @@
+[doit]
+Class="Function"
+Prototype="void doit(char *text);"
+
+[dofile]
+Class="Function"
+Prototype="void dofile(char *filename);"
+
+[create_objects]
+Class="Function"
+Prototype="void create_objects();"
+
+[Test]
+Class="Function"
+Prototype="int Test();"
+

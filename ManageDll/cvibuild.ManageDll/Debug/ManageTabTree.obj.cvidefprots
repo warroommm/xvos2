@@ -1,0 +1,12 @@
+[SelectTreeItem]
+Class="Function"
+Prototype="int SelectTreeItem();"
+
+[InitTree]
+Class="Function"
+Prototype="int InitTree(int panel);"
+
+[DeviceTreeCB]
+Class="Function"
+Prototype="int DeviceTreeCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

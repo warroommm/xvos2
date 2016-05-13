@@ -1,0 +1,47 @@
+-nologo
+-out:e:\work\DPSensorClient2\XVos\cvibuild.XVos\Debug\XVosD.exe
+-arch:x86
+-timestamp
+-debug:3
+-loadextmod
+-res:e:\work\DPSensorClient2\XVos\cvibuild.XVos\Debug\resources.res
+-entry:_CVIWinMainStartupCodeForDebugging@0
+-base:0x400000
+-linked:e:\work\DPSensorClient2\XVos\cvibuild.XVos\Debug\linkersummary.txt
+-dlldeps:e:\work\DPSensorClient2\XVos\cvibuild.XVos\Debug\dlldependencies.txt
+-licensing:e:\work\DPSensorClient2\XVos\cvibuild.XVos\Debug\linkerlicensing.txt
+-browsedeps:e:\work\DPSensorClient2\XVos\cvibuild.XVos\Debug\moduledependencies.txt
+-stackreserve:1048576
+-stackcommit:4096
+-in:e:\work\DPSensorClient2\XVos\cvibuild.XVos\Debug\Child.obj
+-in:e:\work\DPSensorClient2\XVos\cvibuild.XVos\Debug\ChildData.obj
+-in:e:\work\DPSensorClient2\XVos\cvibuild.XVos\Debug\ctrl.obj
+-in:e:\work\DPSensorClient2\XVos\cvibuild.XVos\Debug\main.obj
+-in:e:\work\DPSensorClient2\XVos\cvibuild.XVos\Debug\menu.obj
+-in:e:\work\DPSensorClient2\XVos\cvibuild.XVos\Debug\pnl.obj
+-in:e:\work\DPSensorClient2\XVos\cvibuild.XVos\Debug\utils.obj
+-more:e:\program files (x86)\ni\cvi2013\bin\msvc\cvistart.lib
+-more:e:\program files (x86)\ni\cvi2013\bin\msvc\cvi.lib
+-more:e:\program files (x86)\ni\cvi2013\sdk\lib\msvc\advapi32.lib
+-more:c:\ProgramData\National Instruments\CVI2013\bin\msvc\analysis.lib
+-more:e:\Program Files (x86)\NI\CVI2013\bin\msvc\cviauto.lib
+-more:e:\Program Files (x86)\NI\CVI2013\bin\msvc\cviddc.lib
+-more:e:\Program Files (x86)\NI\CVI2013\bin\msvc\cvidotnet.lib
+-more:e:\Program Files (x86)\NI\CVI2013\bin\msvc\cvinetstreams.lib
+-more:e:\Program Files (x86)\NI\CVI2013\bin\msvc\cvinetv.lib
+-more:e:\Program Files (x86)\NI\CVI2013\bin\msvc\cvintwrk.lib
+-more:e:\Program Files (x86)\NI\CVI2013\bin\msvc\cvitdms.lib
+-more:e:\program files (x86)\ni\cvi2013\sdk\lib\msvc\gdi32.lib
+-more:e:\Program Files (x86)\NI\CVI2013\bin\msvc\gpib.lib
+-more:e:\Program Files (x86)\NI\CVI2013\toolslib\toolbox\msvc\inifile.obj
+-more:e:\program files (x86)\ni\cvi2013\sdk\lib\msvc\kernel32.lib
+-more:e:\work\DPSensorClient2\XVos\cvibuild.XVos\Debug\menuutil.obj
+-more:e:\Program Files (x86)\NI\CVI2013\bin\msvc\nivxi.lib
+-more:e:\Program Files (x86)\NI\CVI2013\bin\msvc\omp.lib
+-more:e:\work\DPSensorClient2\Bin\msvc\TfftD.lib
+-more:e:\work\DPSensorClient2\Bin\msvc\TManageD.lib
+-more:e:\Program Files (x86)\NI\CVI2013\toolslib\toolbox\msvc\toolbox.obj
+-more:e:\program files (x86)\ni\cvi2013\sdk\lib\msvc\user32.lib
+-more:e:\program files (x86)\ni\cvi2013\sdk\lib\msvc\uuid.lib
+-more:e:\Program Files (x86)\NI\Shared\CVI\Bin\msvc\visa.lib
+-more:e:\program files (x86)\ni\cvi2013\sdk\lib\msvc\winmm.lib

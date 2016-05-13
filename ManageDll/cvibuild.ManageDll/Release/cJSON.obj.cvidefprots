@@ -1,0 +1,148 @@
+[cJSON_GetErrorPtr]
+Class="Function"
+Prototype="const char *cJSON_GetErrorPtr();"
+
+[cJSON_InitHooks]
+Class="Function"
+Prototype="void cJSON_InitHooks(struct cJSON_Hooks *hooks);"
+
+[cJSON_Delete]
+Class="Function"
+Prototype="void cJSON_Delete(struct cJSON *c);"
+
+[cJSON_ParseWithOpts]
+Class="Function"
+Prototype="struct cJSON *cJSON_ParseWithOpts(const char *value, const char **return_parse_end, int require_null_terminated);"
+
+[cJSON_Parse]
+Class="Function"
+Prototype="struct cJSON *cJSON_Parse(const char *value);"
+
+[cJSON_Print]
+Class="Function"
+Prototype="char *cJSON_Print(struct cJSON *item);"
+
+[cJSON_PrintUnformatted]
+Class="Function"
+Prototype="char *cJSON_PrintUnformatted(struct cJSON *item);"
+
+[cJSON_PrintBuffered]
+Class="Function"
+Prototype="char *cJSON_PrintBuffered(struct cJSON *item, int prebuffer, int fmt);"
+
+[cJSON_GetArraySize]
+Class="Function"
+Prototype="int cJSON_GetArraySize(struct cJSON *array);"
+
+[cJSON_GetArrayItem]
+Class="Function"
+Prototype="struct cJSON *cJSON_GetArrayItem(struct cJSON *array, int item);"
+
+[cJSON_GetObjectItem]
+Class="Function"
+Prototype="struct cJSON *cJSON_GetObjectItem(struct cJSON *object, const char *string);"
+
+[cJSON_AddItemToArray]
+Class="Function"
+Prototype="void cJSON_AddItemToArray(struct cJSON *array, struct cJSON *item);"
+
+[cJSON_AddItemToObject]
+Class="Function"
+Prototype="void cJSON_AddItemToObject(struct cJSON *object, const char *string, struct cJSON *item);"
+
+[cJSON_AddItemToObjectCS]
+Class="Function"
+Prototype="void cJSON_AddItemToObjectCS(struct cJSON *object, const char *string, struct cJSON *item);"
+
+[cJSON_AddItemReferenceToArray]
+Class="Function"
+Prototype="void cJSON_AddItemReferenceToArray(struct cJSON *array, struct cJSON *item);"
+
+[cJSON_AddItemReferenceToObject]
+Class="Function"
+Prototype="void cJSON_AddItemReferenceToObject(struct cJSON *object, const char *string, struct cJSON *item);"
+
+[cJSON_DetachItemFromArray]
+Class="Function"
+Prototype="struct cJSON *cJSON_DetachItemFromArray(struct cJSON *array, int which);"
+
+[cJSON_DeleteItemFromArray]
+Class="Function"
+Prototype="void cJSON_DeleteItemFromArray(struct cJSON *array, int which);"
+
+[cJSON_DetachItemFromObject]
+Class="Function"
+Prototype="struct cJSON *cJSON_DetachItemFromObject(struct cJSON *object, const char *string);"
+
+[cJSON_DeleteItemFromObject]
+Class="Function"
+Prototype="void cJSON_DeleteItemFromObject(struct cJSON *object, const char *string);"
+
+[cJSON_InsertItemInArray]
+Class="Function"
+Prototype="void cJSON_InsertItemInArray(struct cJSON *array, int which, struct cJSON *newitem);"
+
+[cJSON_ReplaceItemInArray]
+Class="Function"
+Prototype="void cJSON_ReplaceItemInArray(struct cJSON *array, int which, struct cJSON *newitem);"
+
+[cJSON_ReplaceItemInObject]
+Class="Function"
+Prototype="void cJSON_ReplaceItemInObject(struct cJSON *object, const char *string, struct cJSON *newitem);"
+
+[cJSON_CreateNull]
+Class="Function"
+Prototype="struct cJSON *cJSON_CreateNull();"
+
+[cJSON_CreateTrue]
+Class="Function"
+Prototype="struct cJSON *cJSON_CreateTrue();"
+
+[cJSON_CreateFalse]
+Class="Function"
+Prototype="struct cJSON *cJSON_CreateFalse();"
+
+[cJSON_CreateBool]
+Class="Function"
+Prototype="struct cJSON *cJSON_CreateBool(int b);"
+
+[cJSON_CreateNumber]
+Class="Function"
+Prototype="struct cJSON *cJSON_CreateNumber(double num);"
+
+[cJSON_CreateString]
+Class="Function"
+Prototype="struct cJSON *cJSON_CreateString(const char *string);"
+
+[cJSON_CreateArray]
+Class="Function"
+Prototype="struct cJSON *cJSON_CreateArray();"
+
+[cJSON_CreateObject]
+Class="Function"
+Prototype="struct cJSON *cJSON_CreateObject();"
+
+[cJSON_CreateIntArray]
+Class="Function"
+Prototype="struct cJSON *cJSON_CreateIntArray(const int *numbers, int count);"
+
+[cJSON_CreateFloatArray]
+Class="Function"
+Prototype="struct cJSON *cJSON_CreateFloatArray(const float *numbers, int count);"
+
+[cJSON_CreateDoubleArray]
+Class="Function"
+Prototype="struct cJSON *cJSON_CreateDoubleArray(const double *numbers, int count);"
+
+[cJSON_CreateStringArray]
+Class="Function"
+Prototype="struct cJSON *cJSON_CreateStringArray(const char **strings, int count);"
+
+[cJSON_Duplicate]
+Class="Function"
+Prototype="struct cJSON *cJSON_Duplicate(struct cJSON *item, int recurse);"
+
+[cJSON_Minify]
+Class="Function"
+Prototype="void cJSON_Minify(char *json);"
+

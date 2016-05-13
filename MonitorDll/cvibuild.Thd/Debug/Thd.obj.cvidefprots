@@ -1,0 +1,92 @@
+[GetPanel]
+Class="Function"
+Prototype="int GetPanel();"
+
+[InitAnno_setconetent]
+Class="Function"
+Prototype="void InitAnno_setconetent(const char *pContent);"
+
+[GetHdc]
+Class="Function"
+Prototype="struct HDC__ *GetHdc(int control);"
+
+[DllMain]
+Class="Function"
+Prototype="int DllMain(struct HINSTANCE__ *hinstDLL, unsigned long fdwReason, void *lpvReserved);"
+
+[InitUIall]
+Class="Function"
+Prototype="int InitUIall(int nParentPanel);"
+
+[ShowUIall]
+Class="Function"
+Prototype="int ShowUIall(int bshow);"
+
+[InitUIForDLL]
+Class="Function"
+Prototype="int InitUIForDLL(struct HWND__ *hParent);"
+
+[DiscardUIObjectsForDLLF]
+Class="Function"
+Prototype="void DiscardUIObjectsForDLLF();"
+
+[MainCallback]
+Class="Function"
+Prototype="int MainCallback(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ReadData]
+Class="Function"
+Prototype="float *ReadData(const char *lpFile, int *nCnt, float *fMin, float *fMax);"
+
+[ReadData_ext]
+Class="Function"
+Prototype="float *ReadData_ext(const char *lpFile, int *nCnt, float *fMin, float *fMax);"
+
+[PlotGraph_external]
+Class="Function"
+Prototype="void PlotGraph_external(int indexgraph, float *pdata, int len);"
+
+[QuitCommandBtn02]
+Class="Function"
+Prototype="int QuitCommandBtn02(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[BtnShowCallback]
+Class="Function"
+Prototype="int BtnShowCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[BtnShowTxtCallback]
+Class="Function"
+Prototype="int BtnShowTxtCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ShowWaveFile]
+Class="Function"
+Prototype="int ShowWaveFile();"
+
+[ShowWaveFile_fft]
+Class="Function"
+Prototype="int ShowWaveFile_fft(int clickbtn);"
+
+[RestoreCB]
+Class="Function"
+Prototype="int RestoreCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[GraphCB_Dyn]
+Class="Function"
+Prototype="int GraphCB_Dyn(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[GraphCB]
+Class="Function"
+Prototype="int GraphCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[MoveBtnCB]
+Class="Function"
+Prototype="int MoveBtnCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[FindAnnoId]
+Class="Function"
+Prototype="int FindAnnoId(int control);"
+
+[PutWave]
+Class="Function"
+Prototype="int PutWave(const char *pWaveFile);"
+

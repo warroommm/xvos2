@@ -1,0 +1,220 @@
+#include "e:\program files (x86)\ni\cvi2013\sdk\include\winver.h"
+
+
+2 24 "e:\\work\\DPSensorClient2\\ManageDll\\cvibuild.ManageDll\\Debug\\manifest.xml"
+
+
+STRINGTABLE DISCARDABLE
+BEGIN
+  65535  ""
+END
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+ FILEFLAGS 0x1L
+ FILEOS VOS__WINDOWS32
+ FILETYPE VFT_DLL
+ FILESUBTYPE VFT_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "hy\0"
+            VALUE "FileDescription", "TManageD (Debug x86)\0"
+            VALUE "FileVersion", "1.0\0"
+            VALUE "InternalName", "TManageD\0"
+            VALUE "LegalCopyright", "Copyright © hy 2016\0"
+            VALUE "OriginalFilename", "TManageD.dll\0"
+            VALUE "ProductName", "hy TManageD\0"
+            VALUE "ProductVersion", "1.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 0x4b0
+    END
+END
+
+ManageDll.uir UIRFileType "e:\\work\\DPSensorClient2\\ManageDll\\ManageDll.uir"
+
+CVIDLLexports CVIDLLprototypes
+{
+   "int BtnJsonCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int BtnOkCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int BtnSqliteCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "void CloseDB();"
+   "\n",
+   "void CreateDB();"
+   "\n",
+   "struct sqlite3 *DBbase();"
+   "\n",
+   "void DefferSysMenuItems(void *callback);"
+   "\n",
+   "void DeleteDB(char *attributed);"
+   "\n",
+   "int DeviceTreeCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "void DiscardUIObjectsForDLLM();"
+   "\n",
+   "int DllMain(struct HINSTANCE__ *hinstDLL, unsigned long fdwReason, void *lpvReserved);"
+   "\n",
+   "int GetDBData(void **pOutData);"
+   "\n",
+   "int InitMenu(int panel);"
+   "\n",
+   "int InitTree(int panel);"
+   "\n",
+   "int InitUI(int nParent, int hParent, int msg);"
+   "\n",
+   "int InitUiTab(int nParent);"
+   "\n",
+   "void InsertDB(char *named, char *attributed, char *parentsvalue, int picnum, int irecorded);"
+   "\n",
+   "int ListPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int ListboxCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int LoadMyInfo(void *para, int n_column, char **column_value, char **column_name);"
+   "\n",
+   "int MU_AddItemToMenuList(int handle, int index, char *menuItemName, void *callbackData);"
+   "\n",
+   "int MU_CreateMenuList(int menuBarHandle, int menuID, int beforeMenuItemID, int maxItems, void (*callbackFunc)(int, int, int, void *));"
+   "\n",
+   "int MU_DeleteMenuList(int handle);"
+   "\n",
+   "int MU_DeleteMenuListItem(int handle, int index);"
+   "\n",
+   "int MU_GetFileListFromIniFile(int menuListHandle, struct IniStructForwardReferenceTag *iniTextHandle, char *sectionName, char *tagPrefix, int flags);"
+   "\n",
+   "int MU_GetMenuListAttribute(int handle, int index, int attribute, void *value);"
+   "\n",
+   "int MU_GetNumMenuListItems(int handle);"
+   "\n",
+   "char *MU_MakeShortFileName(char *userOutBuf, char *userInBuf, int max);"
+   "\n",
+   "int MU_PutFileListInIniFile(int menuListHandle, struct IniStructForwardReferenceTag *iniTextHandle, char *sectionName, char *tagPrefix, int useCallbackDataAsTagName);"
+   "\n",
+   "int MU_ReadRegistryInfo(struct IniStructForwardReferenceTag *iniTextHandle, char *registryName);"
+   "\n",
+   "int MU_SetMenuListAttribute(int handle, int index, int attribute, ...);"
+   "\n",
+   "int MU_SetMenuListAttributeFromParmInfo(int handle, int index, int attribute, char *parmInfo);"
+   "\n",
+   "int MU_WriteRegistryInfo(struct IniStructForwardReferenceTag *iniTextHandle, char *registryName);"
+   "\n",
+   "void MovePosition(int panel, int init);"
+   "\n",
+   "int PanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int SelectDB();"
+   "\n",
+   "void SelectDBTest();"
+   "\n",
+   "int SelectItem();"
+   "\n",
+   "int SelectTreeItem();"
+   "\n",
+   "int ShowSysMenuCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int TabCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int Test();"
+   "\n",
+   "int TreeCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "void TreeItemAdd(int panel, int ctrlId, int menuItem, void *callback);"
+   "\n",
+   "void TreeItemDele(int panel, int ctrlId, int menuItem, void *callback);"
+   "\n",
+   "void TreeItemModify(int panel, int ctrlId, int menuItem, void *callback);"
+   "\n",
+   "void UpdateDbTable(char *named, char *attributed);"
+   "\n",
+   "void cJSON_AddItemReferenceToArray(struct cJSON *array, struct cJSON *item);"
+   "\n",
+   "void cJSON_AddItemReferenceToObject(struct cJSON *object, const char *string, struct cJSON *item);"
+   "\n",
+   "void cJSON_AddItemToArray(struct cJSON *array, struct cJSON *item);"
+   "\n",
+   "void cJSON_AddItemToObject(struct cJSON *object, const char *string, struct cJSON *item);"
+   "\n",
+   "void cJSON_AddItemToObjectCS(struct cJSON *object, const char *string, struct cJSON *item);"
+   "\n",
+   "struct cJSON *cJSON_CreateArray();"
+   "\n",
+   "struct cJSON *cJSON_CreateBool(int b);"
+   "\n",
+   "struct cJSON *cJSON_CreateDoubleArray(const double *numbers, int count);"
+   "\n",
+   "struct cJSON *cJSON_CreateFalse();"
+   "\n",
+   "struct cJSON *cJSON_CreateFloatArray(const float *numbers, int count);"
+   "\n",
+   "struct cJSON *cJSON_CreateIntArray(const int *numbers, int count);"
+   "\n",
+   "struct cJSON *cJSON_CreateNull();"
+   "\n",
+   "struct cJSON *cJSON_CreateNumber(double num);"
+   "\n",
+   "struct cJSON *cJSON_CreateObject();"
+   "\n",
+   "struct cJSON *cJSON_CreateString(const char *string);"
+   "\n",
+   "struct cJSON *cJSON_CreateStringArray(const char **strings, int count);"
+   "\n",
+   "struct cJSON *cJSON_CreateTrue();"
+   "\n",
+   "void cJSON_Delete(struct cJSON *c);"
+   "\n",
+   "void cJSON_DeleteItemFromArray(struct cJSON *array, int which);"
+   "\n",
+   "void cJSON_DeleteItemFromObject(struct cJSON *object, const char *string);"
+   "\n",
+   "struct cJSON *cJSON_DetachItemFromArray(struct cJSON *array, int which);"
+   "\n",
+   "struct cJSON *cJSON_DetachItemFromObject(struct cJSON *object, const char *string);"
+   "\n",
+   "struct cJSON *cJSON_Duplicate(struct cJSON *item, int recurse);"
+   "\n",
+   "struct cJSON *cJSON_GetArrayItem(struct cJSON *array, int item);"
+   "\n",
+   "int cJSON_GetArraySize(struct cJSON *array);"
+   "\n",
+   "const char *cJSON_GetErrorPtr();"
+   "\n",
+   "struct cJSON *cJSON_GetObjectItem(struct cJSON *object, const char *string);"
+   "\n",
+   "void cJSON_InitHooks(struct cJSON_Hooks *hooks);"
+   "\n",
+   "void cJSON_InsertItemInArray(struct cJSON *array, int which, struct cJSON *newitem);"
+   "\n",
+   "void cJSON_Minify(char *json);"
+   "\n",
+   "struct cJSON *cJSON_Parse(const char *value);"
+   "\n",
+   "struct cJSON *cJSON_ParseWithOpts(const char *value, const char **return_parse_end, int require_null_terminated);"
+   "\n",
+   "char *cJSON_Print(struct cJSON *item);"
+   "\n",
+   "char *cJSON_PrintBuffered(struct cJSON *item, int prebuffer, int fmt);"
+   "\n",
+   "char *cJSON_PrintUnformatted(struct cJSON *item);"
+   "\n",
+   "void cJSON_ReplaceItemInArray(struct cJSON *array, int which, struct cJSON *newitem);"
+   "\n",
+   "void cJSON_ReplaceItemInObject(struct cJSON *object, const char *string, struct cJSON *newitem);"
+   "\n",
+   "void create_objects();"
+   "\n",
+   "void dofile(char *filename);"
+   "\n",
+   "void doit(char *text);"
+   "\n",
+   "\0"
+}

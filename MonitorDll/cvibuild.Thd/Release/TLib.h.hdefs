@@ -1,0 +1,12 @@
+[DiscardUIObjectsForDLLF]
+Class="Function"
+Prototype="void DiscardUIObjectsForDLLF();"
+
+[InitUIall]
+Class="Function"
+Prototype="int InitUIall(int nParentHandle);"
+
+[ShowUIall]
+Class="Function"
+Prototype="int ShowUIall(int bshow);"
+

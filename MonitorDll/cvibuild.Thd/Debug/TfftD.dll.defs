@@ -1,0 +1,7 @@
+LIBRARY TfftD
+
+EXPORTS
+PutWave
+ShowUIall
+InitUIall
+DiscardUIObjectsForDLLF

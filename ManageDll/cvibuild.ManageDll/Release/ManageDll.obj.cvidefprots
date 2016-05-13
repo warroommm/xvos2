@@ -1,0 +1,36 @@
+[DllMain]
+Class="Function"
+Prototype="int DllMain(struct HINSTANCE__ *hinstDLL, unsigned long fdwReason, void *lpvReserved);"
+
+[InitUI]
+Class="Function"
+Prototype="int InitUI(int nParent);"
+
+[InitUiTab]
+Class="Function"
+Prototype="int InitUiTab(int nParent);"
+
+[DiscardUIObjectsForDLLM]
+Class="Function"
+Prototype="void DiscardUIObjectsForDLLM();"
+
+[PanelCB]
+Class="Function"
+Prototype="int PanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[BtnJsonCB]
+Class="Function"
+Prototype="int BtnJsonCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[BtnSqliteCB]
+Class="Function"
+Prototype="int BtnSqliteCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[BtnOkCB]
+Class="Function"
+Prototype="int BtnOkCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[LoadMyInfo]
+Class="Function"
+Prototype="int LoadMyInfo(void *para, int n_column, char **column_value, char **column_name);"
+

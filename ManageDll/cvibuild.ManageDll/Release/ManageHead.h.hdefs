@@ -1,0 +1,12 @@
+[DiscardUIObjectsForDLLM]
+Class="Function"
+Prototype="void DiscardUIObjectsForDLLM();"
+
+[InitUI]
+Class="Function"
+Prototype="int InitUI(int nParent);"
+
+[InitUiTab]
+Class="Function"
+Prototype="int InitUiTab(int nParent);"
+
